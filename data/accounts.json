@@ -1,0 +1,29 @@
+{
+    "Trader 1": {
+        "cash": 9319.72,
+        "holdings": {
+            "AAPL": 10,
+            "NVDA": 1
+        }
+    },
+    "Trader 2": {
+        "cash": 11255.15,
+        "holdings": {
+            "MSFT": 9,
+            "AAPL": 7
+        }
+    },
+    "Trader 3": {
+        "cash": 10085.83,
+        "holdings": {
+            "NVDA": 12,
+            "MSFT": 2
+        }
+    },
+    "Trader 4": {
+        "cash": 16843.6,
+        "holdings": {
+            "AMZN": 19
+        }
+    }
+}

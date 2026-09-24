@@ -1,0 +1,18 @@
+{
+    "AAPL": {
+        "price": 180,
+        "previous_price": 175
+    },
+    "MSFT": {
+        "price": 350,
+        "previous_price": 360
+    },
+    "NVDA": {
+        "price": 140,
+        "previous_price": 130
+    },
+    "AMZN": {
+        "price": 220,
+        "previous_price": 225
+    }
+}

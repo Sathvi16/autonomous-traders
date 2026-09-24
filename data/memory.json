@@ -1,0 +1,175 @@
+{
+    "Trader 1": [
+        {
+            "stock": "NVDA",
+            "price": 225.50999450683594,
+            "trend": "STRONG_UPWARD",
+            "llm_action": "BUY",
+            "llm_quantity": 1,
+            "decision": "BUY",
+            "quantity": 1,
+            "validation_status": "APPROVED",
+            "reason": "Strong upward trend and positive price momentum over the past few days support a BUY decision."
+        },
+        {
+            "stock": "NVDA",
+            "price": 225.50999450683594,
+            "trend": "STRONG_UPWARD",
+            "llm_action": "BUY",
+            "llm_quantity": 1,
+            "decision": "BUY",
+            "quantity": 1,
+            "validation_status": "APPROVED",
+            "reason": "Strong upward trend and increasing price history support continued positive momentum."
+        },
+        {
+            "stock": "NVDA",
+            "price": 221.88999938964844,
+            "trend": "STRONG_UPWARD",
+            "llm_action": "UNKNOWN",
+            "llm_quantity": 0,
+            "decision": "HOLD",
+            "quantity": 0,
+            "validation_status": "REJECTED",
+            "reason": "Ollama request failed: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download"
+        },
+        {
+            "stock": "NVDA",
+            "price": 221.9199981689453,
+            "trend": "STRONG_UPWARD",
+            "llm_action": "BUY",
+            "llm_quantity": 1,
+            "decision": "BUY",
+            "quantity": 1,
+            "validation_status": "APPROVED",
+            "reason": "Strong upward trend with recent price increases (2026-09-21, 2026-09-22) supports continued positive momentum."
+        },
+        {
+            "stock": "NVDA",
+            "price": 221.83999633789062,
+            "trend": "STRONG_UPWARD",
+            "llm_action": "SELL",
+            "llm_quantity": 2,
+            "decision": "SELL",
+            "quantity": 2,
+            "validation_status": "APPROVED",
+            "reason": "STRONG_UPWARD trend and increasing price history support selling the stock."
+        }
+    ],
+    "Trader 2": [
+        {
+            "stock": "AAPL",
+            "price": 337.0199890136719,
+            "trend": "STABLE",
+            "llm_action": "BUY",
+            "llm_quantity": 1,
+            "decision": "BUY",
+            "quantity": 1,
+            "validation_status": "APPROVED",
+            "reason": "The evidence indicates continued positive momentum and a stable trend supports a buy decision."
+        },
+        {
+            "stock": "AAPL",
+            "price": 335.7950134277344,
+            "trend": "STABLE",
+            "llm_action": "UNKNOWN",
+            "llm_quantity": 0,
+            "decision": "HOLD",
+            "quantity": 0,
+            "validation_status": "REJECTED",
+            "reason": "Ollama request failed: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download"
+        },
+        {
+            "stock": "AAPL",
+            "price": 336.07501220703125,
+            "trend": "STABLE",
+            "llm_action": "BUY",
+            "llm_quantity": 1,
+            "decision": "BUY",
+            "quantity": 1,
+            "validation_status": "APPROVED",
+            "reason": "Strong upward trend with increased momentum supports a BUY decision."
+        },
+        {
+            "stock": "AAPL",
+            "price": 336.1199951171875,
+            "trend": "STABLE",
+            "llm_action": "BUY",
+            "llm_quantity": 1,
+            "decision": "HOLD",
+            "quantity": 0,
+            "validation_status": "APPROVED",
+            "reason": "Trend strategy changed the proposed action from BUY to HOLD. Price is decreasing, indicating a strong downward trend, which supports buying according to the decision rules."
+        }
+    ],
+    "Trader 3": [
+        {
+            "stock": "MSFT",
+            "price": 500.5899963378906,
+            "trend": "STABLE",
+            "llm_action": "BUY",
+            "llm_quantity": 1,
+            "decision": "BUY",
+            "quantity": 1,
+            "validation_status": "APPROVED",
+            "reason": "The evidence indicates a strong upward trend with a recent price increase, suggesting continued positive momentum."
+        },
+        {
+            "stock": "MSFT",
+            "price": 494.7200012207031,
+            "trend": "STABLE",
+            "llm_action": "BUY",
+            "llm_quantity": 1,
+            "decision": "BUY",
+            "quantity": 1,
+            "validation_status": "APPROVED",
+            "reason": "Strong upward trend and positive price movement over the last few days support a continued positive momentum, justifying a BUY decision."
+        },
+        {
+            "stock": "MSFT",
+            "price": 494.7049865722656,
+            "trend": "STABLE",
+            "llm_action": "BUY",
+            "llm_quantity": 5,
+            "decision": "HOLD",
+            "quantity": 0,
+            "validation_status": "APPROVED",
+            "reason": "Trend strategy changed the proposed action from BUY to HOLD. Price is increasing with trend STRONG_UPWARD supported by multiple consecutive price increases."
+        }
+    ],
+    "Trader 4": [
+        {
+            "stock": "AMZN",
+            "price": 249.27000427246094,
+            "trend": "STABLE",
+            "llm_action": "HOLD",
+            "llm_quantity": 0,
+            "decision": "HOLD",
+            "quantity": 0,
+            "validation_status": "APPROVED",
+            "reason": "Insufficient evidence supports a buy or sell decision"
+        },
+        {
+            "stock": "AMZN",
+            "price": 246.1750030517578,
+            "trend": "STABLE",
+            "llm_action": "HOLD",
+            "llm_quantity": 0,
+            "decision": "HOLD",
+            "quantity": 0,
+            "validation_status": "APPROVED",
+            "reason": "Insufficient evidence to justify taking a position."
+        },
+        {
+            "stock": "AMZN",
+            "price": 246.2100067138672,
+            "trend": "STABLE",
+            "llm_action": "BUY",
+            "llm_quantity": 1,
+            "decision": "HOLD",
+            "quantity": 0,
+            "validation_status": "APPROVED",
+            "reason": "Trend strategy changed the proposed action from BUY to HOLD. The price history shows a slight decrease after the initial increase, indicating a potential downward trend, which supports the decision to buy."
+        }
+    ]
+}
