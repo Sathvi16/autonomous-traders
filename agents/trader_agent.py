@@ -281,7 +281,9 @@ Required JSON format:
 {{
     "action": "BUY",
     "quantity": 1,
-    "reason": "Explain briefly why the supplied evidence supports this decision."
+    "reason": (
+        "Explain briefly why the supplied evidence supports this decision."
+    )
 }}
 """
 

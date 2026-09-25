@@ -3,8 +3,8 @@ import json
 import logging
 import traceback
 
+from agents.portfolio_agent import interactive_portfolio_agent
 from agents.trader_agent import run_trader
-
 from config import settings
 
 logging.basicConfig(
@@ -192,5 +192,5 @@ async def run_all_traders():
 if __name__ == "__main__":
 
     asyncio.run(
-        run_all_traders()
+        interactive_portfolio_agent()
     )

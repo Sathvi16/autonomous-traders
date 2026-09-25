@@ -1,9 +1,8 @@
 {
     "Trader 1": {
-        "cash": 9319.72,
+        "cash": 9544.3,
         "holdings": {
-            "AAPL": 10,
-            "NVDA": 1
+            "AAPL": 10
         }
     },
     "Trader 2": {
